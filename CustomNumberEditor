@@ -3,11 +3,11 @@ package com.ajitesh.sms.util;
 import oarg.springframework.beans.propertyeditors.CustomNumberEditor;
 import org.springframework.util.StringUtils;
 
-public class CustomNumberEditor extends CustomNumberEditor{
+public class MyCustomNumberEditor extends CustomNumberEditor{
 
 	
 	
-	public SMSCustomNumberEditor(Class<? extends Number> numberClass) throws IllegalArgumentException {
+	public MyCustomNumberEditor(Class<? extends Number> numberClass) throws IllegalArgumentException {
         super(numberClass, true);
     }
 
